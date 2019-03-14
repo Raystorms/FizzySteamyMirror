@@ -14,14 +14,15 @@ Both of these projects need to be installed and working before you can use this 
 2. [Mirror](https://github.com/vis2k/Mirror) FizzySteamyMirror is also obviously dependant on Mirror which is a streamline, bug fixed, maintained version of UNET for Unity. **Recommended [Stable Version](https://assetstore.unity.com/packages/tools/network/mirror-129321)**
 
 ## Setting Up
-* Note: if you want an easy import, skip the steps bellow & take the [release](https://github.com/Raystorms/FizzySteamyMirror/releases), it has Steamworks.Net already included. (if you already have Steamworks.Net in your project, you might need to delete either your import or the one included in the release).
+1. Download [**FizzySteamyMirror.unitypackage**](https://github.com/Raystorms/FizzySteamyMirror/releases)
+which also has Steamworks.Net included. **(if you already have Steamworks.Net in your project, you might need to delete either your import or the one included in the release)**
 
-1. Download and install the dependencies 
-2. Download **"FizzySteamyMirror"** and place in your Assets folder somewhere. **If errors occur, open a [Issue ticket.](https://github.com/FizzCube/FizzySteamyMirror/issues)**
-3. In your ![Image](http://i.galtrox.com/index.php/s/LX2KPkezLwazrTS/preview) object replace ![Image](http://i.galtrox.com/index.php/s/LTwTTyZLtbmGHY6/preview) with ![Image](http://i.galtrox.com/index.php/s/5PJBqPjJiFdqxG9/preview) 
+2. In your ![Image](http://i.galtrox.com/index.php/s/LX2KPkezLwazrTS/preview) object replace ![Image](http://i.galtrox.com/index.php/s/LTwTTyZLtbmGHY6/preview) with ![Image](http://i.galtrox.com/index.php/s/5PJBqPjJiFdqxG9/preview) 
+
+**Note: if your new to Mirror and you dont know "NetworkManager" is all about we recommended going to   [Doc](https://vis2k.github.io/Mirror/General/Start)**
 
 ## Building
-1. When Building your game you have to place **"steam_appid.txt"** into the dir of the game. If you cant find it well, just make a **"steam_appid.txt"** and place **480** in side.
+1. Go into your build and make a **"steam_appid.txt"** and place **480** in side.
 
 ![Image](http://i.galtrox.com/index.php/s/KLB8W6kFtnjwQPJ/preview)
 
@@ -44,17 +45,3 @@ If you know a better way around this please make a [Issue ticket.](https://githu
 2. The client needs the steam64id of the host to be able to connect.
 3. Place the steam64id into ![Image](http://i.galtrox.com/index.php/s/py8ZgqtkbrzyC3B/preview) then click "Lan Client"
 4. **Bing bash bong DONE!**
-
-## Play Testing your game locally
-
-1.You need to have both scripts **"Fizzy Steamy Mirror"** and **"Telepathy Transport"**
-
-![Image](http://i.galtrox.com/index.php/s/LPqwLpqXecSiG7z/preview)
-
-2.To test it locally disable **"Fizzy Steamy Mirror"** and enable **"Telepathy Transport"**
-
-![Image](http://i.galtrox.com/index.php/s/TdBsCSETdXCp5rr/preview)
-
-3.To test it on Steam P2P again enable **"Fizzy Steamy Mirror"** and disable **"Telepathy Transport"**
-
-![Image](http://i.galtrox.com/index.php/s/kb63dSQiQ3KdgAa/preview)
